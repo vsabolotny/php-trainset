@@ -8,7 +8,7 @@ Build docker image:
 
 Run docker php-cli container with a specific script from src/ folder:
 ```
-% docker run -it --rm php-cli php <helloworld.php>
+% docker run -it --rm php-cli php <hello-world.php>
 
 Welcome to PHP CLI 
 ```
