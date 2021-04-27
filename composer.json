@@ -1,0 +1,14 @@
+{
+  "name": "vsabolotny/php-trainset",
+  "description": "A set of coding exercise solutions.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Vladislav Sabolotny"
+    }
+  ],
+  "require": {
+
+  }
+}
