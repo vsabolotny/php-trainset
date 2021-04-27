@@ -1,6 +1,8 @@
 #!/bin/bash
 <?php
 /**
+https://leetcode.com/problems/first-unique-character-in-a-string
+
     Example 1:
 
     Input: s = "leetcode"
@@ -31,10 +33,10 @@ class Solution {
         foreach($list as $num => $candidate) {
             $uniq = true;
             $pos = 0;
-            // echo $num . '+' . $pos;
             for($pos; $pos <= count($list); $pos++) {
                 if ($list[$pos] == $candidate && $pos != $num) {
                     $uniq = false;
+                    break;
                 }
             }
             if ($uniq) {
